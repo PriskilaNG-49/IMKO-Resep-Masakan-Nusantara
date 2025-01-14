@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resep Batak - Rahasia Dapur Nusantara</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         /* CSS untuk tombol */
+         .content {
+            min-height: 100vh; /* Agar konten mengisi layar penuh */
+            padding-bottom: 80px; /* Memberikan ruang agar tombol tidak tertutup */
+        }
+
+        /* Tombol Kembali di kiri bawah */
+        .btn-back {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            padding: 15px 20px;
+            font-size: 16px;
+            background-color: #8a563c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 100;
+            
+        }
+    </style>
+</head>
+<body>
+     <!-- Header tetap sama -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Resep</a></li>
+            </ul>
+        </nav>
+    </header>
+      <!-- Section tanpa background -->
+    <section class="recipe-pair">
+          <!-- Resep Ikan Mas Arsik -->
+        <div class="recipe-card">
+            <h3>Resep Batak - Ikan Mas Arsik</h3>
+        <img src="images/arsik.jpg" alt="Ikan Mas Arsik" width="500">
+        
+        <h3>Bahan-bahan:</h3>
+        <ul>
+            <li>1 ekor ikan mas (500 gram)</li>
+            <li>1 batang serai, memarkan</li>
+            <li>2 lembar daun salam</li>
+            <li>5 siung bawang merah</li>
+            <li>2 siung bawang putih</li>
+            <li>1 cm lengkuas</li>
+            <li>1 buah tomat</li>
+            <li>3 cabai merah</li>
+            <li>2 cabai hijau</li>
+            <li>Garam dan gula secukupnya</li>
+        </ul>
+
+        <h3>Cara Memasak:</h3>
+        <ol>
+            <li>Potong ikan mas menjadi beberapa bagian dan bersihkan.</li>
+            <li>Tumis bawang merah, bawang putih, cabai, dan tomat hingga harum.</li>
+            <li>Tambahkan serai, daun salam, dan lengkuas, lalu masukkan ikan mas.</li>
+            <li>Tambahkan air secukupnya dan biarkan mendidih.</li>
+            <li>Masak hingga ikan matang dan kuah menyusut, lalu sajikan.</li>
+        </ol>
+        </div>
+
+        <!-- Resep Saksang -->
+         <div class="recipe-card">
+            <h3>Resep Batak - Saksang</h3>
+        <img src="images/saksang.jpeg" alt="Saksang" width="200">
+        <h3>Bahan-bahan:</h3>
+        <ul>
+            <li> Daging babi/ayam/sapi (500 gram)</li>
+            <li>200 ml santan</li>
+            <li>2 batang serai (memarkan)</li>
+            <li>5 lembar daun jeruk</li>
+            <li>2 sdm air jeruk nipis</li>
+            <li>1 sdm andaliman</li>
+            <li>1 sdm darah segar (opsional)</li>
+            <li>Garam dan gula secukupnya</li>
+            <li>6 siung bawang merah</li>
+            <li>4 siung bawang putih</li>
+            <li>2 cm lengkuas</li>
+            <li>2 cm jahe</li>
+            <li>3 cm kunyit</li>
+            <li>10 buah cabai merah (sesuai selera pedas)</li>
+        </ul>
+
+        <h3>Cara Memasak:</h3>
+        <ol>
+            <li>Cuci daging, potong kecil, lumuri air jeruk nipis, diamkan 10 menit, bilas</li>
+            <li>Panaskan minyak, tumis bumbu halus hingga harum.</li>
+            <li>Masukkan serai, daun jeruk, dan andaliman, tumis sebentar.</li>
+            <li>Masukkan daging, aduk hingga berubah warna.</li>
+            <li>Tuang santan, masak dengan api kecil hingga daging empuk.</li>
+            <li>(Opsional) Tambahkan darah sedikit demi sedikit sambil diaduk.</li>
+            <li>Tambahkan garam dan gula sesuai selera, sajikan dengan nasi hangat.</li>
+        </ol>   
+    </div>
+</section>
+
+ <!-- Tambahkan Tombol Kembali DI SINI -->
+ <button onclick="location.href='dashboard.html';" 
+ style="position: fixed; bottom: 10px; left: 20px; padding: 15px 20px; font-size: 16px; background-color: #8a563c; color: white; border: none; border-radius: 5px; cursor: pointer;">
+Kembali
+</button>
+</body>
+</html>

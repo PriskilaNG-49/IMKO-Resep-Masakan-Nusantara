@@ -1,0 +1,162 @@
+/* Menambahkan background ke seluruh halaman*/
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d5d8d8;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #d26a6a;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Homepage */
+.intro {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Login Page */
+.login-section {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-section h2 {
+    text-align: center;
+}
+
+.login-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-section button:hover {
+    background-color: #555;
+}
+
+/* Dashboard */
+.recipe-dashboard {
+    margin: 50px;
+}
+
+.recipe-dashboard h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.recipe-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.category {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.category h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.category p {
+    color: #555;
+}
+/* Style untuk tombol Resep */
+#resepButton.disabled {
+    color: gray;
+    pointer-events: none; /* Nonaktifkan klik */
+}
+
+#resepButton.enabled {
+    color: black;
+    pointer-events: auto; /* Aktifkan klik */
+}
+/* Kontainer untuk kedua resep */
+.recipe-pair {
+    display: flex; /* Tata letak horizontal */
+    gap: 20px; /* Jarak antar kartu resep */
+    justify-content: center; /* Pusatkan elemen */
+    align-items: flex-start; /* Ratakan bagian atas */
+    margin: 20px auto;
+}
+
+/* Kartu resep */
+.recipe-card {
+    width: 45%; /* Lebar setiap kartu */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+.recipe-card img {
+    width: 100%; /* Gambar menyesuaikan lebar kartu */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.recipe-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.recipe-card ul, .recipe-card ol {
+    margin: 0;
+    padding-left: 20px; /* Beri padding untuk daftar */
+    color: #555;
+}
+

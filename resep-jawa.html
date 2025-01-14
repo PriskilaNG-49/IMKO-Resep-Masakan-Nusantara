@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resep Jawa</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+          /* CSS untuk tombol */
+          .content {
+            min-height: 100vh; /* Agar konten mengisi layar penuh */
+            padding-bottom: 80px; /* Memberikan ruang agar tombol tidak tertutup */
+        }
+
+        /* Tombol Kembali di kiri bawah */
+        .btn-back {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            padding: 15px 20px;
+            font-size: 16px;
+            background-color: #8a563c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="dashboard.html">Resep</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="recipe-pair">
+        <div class="recipe-card">
+        <h2>Resep Jawa - Gudeg Jogja</h2>
+        
+        <!-- Menambahkan gambar Gudeg -->
+        <img src="images/gudeg.jpg" alt="Gudeg Jogja" width="500">
+    <main>
+            <h3>Gudeg Jogja</h3>
+            <p>Gudeg adalah salah satu masakan khas Jawa Tengah, khususnya Yogyakarta, yang dibuat dari nangka muda yang dimasak dengan santan.</p>
+            
+            <h3>Bahan-Bahan:</h3>
+            <ul>
+                <li>1 kg nangka muda (potong kecil-kecil)</li>
+                <li>500 ml santan kental</li>
+                <li>200 gram gula merah</li>
+                <li>5 lembar daun salam</li>
+                <li>4 cm lengkuas (memarkan)</li>
+                <li>2 liter air</li>
+                <li>Garam secukupnya</li>
+            </ul>
+
+            <h3>Bumbu Halus:</h3>
+            <ul>
+                <li>6 siung bawang putih</li>
+                <li>8 butir bawang merah</li>
+                <li>1 sendok teh ketumbar</li>
+                <li>1 sendok teh merica</li>
+                <li>4 butir kemiri</li>
+            </ul>
+
+            <h3>Cara Memasak:</h3>
+            <ol>
+                <li>Haluskan semua bumbu halus menggunakan blender atau ulekan.</li>
+                <li>Panaskan air dalam panci besar, masukkan nangka muda, daun salam, lengkuas, dan bumbu halus.</li>
+                <li>Tambahkan gula merah dan garam, lalu aduk rata.</li>
+                <li>Masak dengan api kecil hingga air mulai menyusut dan nangka empuk (sekitar 2 jam).</li>
+                <li>Tambahkan santan kental, aduk perlahan, dan masak lagi hingga kuah santan meresap.</li>
+                <li>Angkat dan sajikan Gudeg Jogja dengan nasi, telur pindang, dan sambal krecek.</li>
+            </ol>
+        </div>
+            <div class="recipe-card">
+                <h2>Resep Jawa - Rujak Cingur</h2>
+                <!-- Menambahkan gambar Rujak  -->
+                <img src="images/rujak-cingur.jpg" alt="Rujak Cingur" width="500">
+            <main>
+                    <h3>Rujak Cingur</h3>
+                    <p>Rujak Cingur adalah  kuliner tradisional khas Jawa Timur, terutama Surabaya, yang terkenal dengan cita rasa uniknya. Kata cingur dalam bahasa Jawa berarti "hidung," merujuk pada penggunaan irisan hidung sapi (cingur sapi) yang telah direbus sebagai salah satu bahan utamanya.</p>
+                    <h3>Bahan-Bahan:</h3>
+                    <ul>
+                        <li>200 gram cingur sapi (hidung sapi), direbus hingga empuk</li>
+                        <li>1 buah timun, iris tipis</li>
+                        <li>1 buah mangga muda, iris tipis</li>
+                        <li>50 gram tauge, seduh air panas</li>
+                        <li>1 buah tahu, goreng, potong dadu</li>
+                        <li>1 buah tempe, goreng, potong dadu</li>
+                        <li>2 lembar lontong, potong kecil</li>
+                        <li>50 gram kangkung, rebus</li>
+                        <li>50 gram kacang panjang, potong 3 cm, rebus</li></li>
+                        <li>100 gram kacang tanah goreng</li>
+                        <li>50 gram petis udang</li>
+                        <li>2 siung bawang putih</li>
+                        <li>5 buah cabai rawit (sesuai selera pedas)</li>
+                        <li>1 buah pisang batu muda, iris tipis</li>
+                        <li>1 sendok makan gula merah, sisir</li>
+                        <li>1 sendok teh garam</li>
+                        <li>2 sendok makan air asam jawa</li>
+                        <li>Air matang secukupnya</li>
+                    </ul>
+                    <h3>Cara Memasak</h3>
+                    <ol>
+                        <li>Haluskan kacang tanah, bawang putih, cabai rawit, petis udang, garam, dan gula merah.</li>
+                        <li>Tambahkan air asam jawa dan air matang sedikit demi sedikit hingga bumbu menjadi saus kental.</li>
+                        <li>Campurkan semua bahan (cingur, lontong, tahu, tempe, sayuran, dan buah) dalam satu wadah.</li>
+                        <li>Sirami dengan bumbu rujak dan aduk rata.</li>
+                        <li>Sajikan dengan kerupuk atau emping melinjo sebagai pelengkap.</li>
+        </ol>  
+    </div>
+    </section>
+       <!-- Tambahkan Tombol Kembali DI SINI -->
+       <button onclick="location.href='dashboard.html';" 
+       style="position: fixed; bottom: 10px; left: 20px; padding: 15px 20px; font-size: 16px; background-color: #8a563c; color: white; border: none; border-radius: 5px; cursor: pointer;">
+   Kembali
+</button>
+</body>
+</html>
